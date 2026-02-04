@@ -59,3 +59,6 @@
 - On peut éditer le fichier avec nano pour écrire les lignes ou utiliser echo avec l'option -e
     echo -e "J'aime la NSI
 > J'aime la NSI" > ./fic3.txt
+
+- head -n 4 ./fic3.txt
+- tail -n 3 ./fic3.txt
