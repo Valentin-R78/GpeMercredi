@@ -19,7 +19,7 @@
 - Créer les dossiers suivants :
     - `/workspaces/GpeMercredi/DA`
     - `/workspaces/GpeMercredi/DA/DB`
-    - /workspaces/GpeMercredi/DA/DC`
+    - `/workspaces/GpeMercredi/DA/DC`
 - Utiliser la commande `tree` pour contrôler.
 -  Se déplacer dans le dossier `/workspaces/GpeMercredi/DA/DC` et vérifier que vous êtes bien arrivé !
 -  Utiliser la commande `cd ../../` et commenter.
@@ -48,4 +48,14 @@
 - cd ../ ou cd /workspaces/GpeMercredi
 - ls -F ajoute un slash après les dossiers
 - cp ./Dossier1/fic1.txt ./Dossier1/fic2.txt puis cp ./Dossier1/fic1.txt ./fic3.txt
-
+- mv ./Dossier1/fic1.txt ./Dossier1/fichierNSI  (Les extensions de fichiers ne sont pas obligatoires)
+- tree
+- cd ../ && pwd (on enchaine les commandes) : On est remonté d'un range dans l'arboresence
+- rmdir ne supprime que des dossiers vides
+- rm -i pose une question avant chaque opération
+- mkdir ./DA ./DA/DB ./DA/DC && tree
+- cd ./DA/DC && pwd
+- cd ../../ pour remonter de deux rangs
+- On peut éditer le fichier avec nano pour écrire les lignes ou utiliser echo avec l'option -e
+    echo -e "J'aime la NSI
+> J'aime la NSI" > ./fic3.txt

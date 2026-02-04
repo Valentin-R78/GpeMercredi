@@ -138,4 +138,4 @@ chmod u-x,g+rw,o+w ./monFichier       # retire x pour user, ajoute rw pour group
 ----------
 
 Le symbole `>` ou `>>` permet de *rediriger* la sortie d'une commande vers un fichier. Si ce fichier
-n'existe pas, alors il est crée.
+n'existe pas, alors il est crée. Le symbole `>>` ajoute le texte à la suite sans écraser.
